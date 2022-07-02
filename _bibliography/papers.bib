@@ -8,13 +8,15 @@
   doi = {10.48550/ARXIV.2205.11631},
   
   url = {https://arxiv.org/abs/2205.11631},
+  pdf={https://arxiv.org/pdf/2205.11631.pdf},
   
   author = {Ferrando, Javier and Gállego, Gerard I. and Alastruey, Belen and Escolano, Carlos and Costa-jussà, Marta R.},
   
   keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
   
   title = {Towards Opening the Black Box of Neural Machine Translation: Source and Target Interpretations of the Transformer},
-  
+  abstract={In Neural Machine Translation (NMT), each token prediction is conditioned on the source sentence and the target prefix (what has been previously translated at a decoding step). However, previous work on interpretability in NMT has focused solely on source sentence tokens attributions. Therefore, we lack a full understanding of the influences of every input token (source sentence and target prefix) in the model predictions. In this work, we propose an interpretability method that tracks complete input token attributions. Our method, which can be extended to any encoder-decoder Transformer-based model, allows us to better comprehend the inner workings of current NMT models. We apply the proposed method to both bilingual and multilingual Transformers and present insights into their behaviour.},
+
   publisher = {arXiv},
   
   year = {2022},
@@ -28,13 +30,14 @@
   doi = {10.48550/ARXIV.2203.04212},
   
   url = {https://arxiv.org/abs/2203.04212},
-  
+  pdf={https://arxiv.org/pdf/2203.04212.pdf},
   author = {Ferrando, Javier and Gállego, Gerard I. and Costa-jussà, Marta R.},
   
   keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
   
   title = {Measuring the Mixing of Contextual Information in the Transformer},
-  
+  abstract={The Transformer architecture aggregates input information through the self-attention mechanism, but there is no clear understanding of how this information is mixed across the entire model. Additionally, recent works have demonstrated that attention weights alone are not enough to describe the flow of information. In this paper, we consider the whole attention block -- multi-head attention, residual connection, and layer normalization -- and define a metric to measure token-to-token interactions within each layer, considering the characteristics of the representation space. Then, we aggregate layer-wise interpretations to provide input attribution scores for model predictions. Experimentally, we show that our method, ALTI (Aggregation of Layer-wise Token-to-token Interactions), provides faithful explanations and outperforms similar aggregation methods.},
+
   publisher = {arXiv},
   
   year = {2022},
@@ -46,6 +49,7 @@
 @inproceedings{alastruey-etal-2022-locality,
     abbr={ACL SRW},
     title = "On the Locality of Attention in Direct Speech Translation",
+    pdf={https://aclanthology.org/2022.acl-srw.32.pdf},
     author = "Belen Alastruey*  and
       Javier Ferrando*  and
       Gerard I. Gállego  and
@@ -65,14 +69,17 @@
 abbr={AAAI},
   author = {Costa-jussà, Marta R. and Escolano, Carlos and Basta, Christine and Ferrando, Javier and Batlle, Roser and Kharitonova, Ksenia},
   title = {Interpreting Gender Bias in Neural Machine Translation: Architecture Matters},
+  abstract = {Multilingual neural machine translation architectures mainly differ in the number of sharing modules and parameters applied among languages. In this paper, and from an algorithmic perspective, we explore whether the chosen architecture, when trained with the same data, influences the level of gender bias. Experiments conducted in three language pairs show that language-specific encoder-decoders exhibit less bias than the shared architecture. We propose two methods for interpreting and studying gender bias in machine translation based on source embeddings and attention. Our analysis shows that, in the language-specific case, the embeddings encode more gender information, and their attention is more diverted. Both behaviors help in mitigating gender bias.},
   booktitle = {Proceedings of AAAI},
   url = "https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf",
+  pdf={https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf},
   year = {2022},
 }
 
 @inproceedings{ferrando-costa-jussa-2021-attention-weights,
     abbr={EMNLP},
     title = "Attention Weights in Transformer {NMT} Fail Aligning Words Between Sequences but Largely Explain Model Predictions",
+    pdf={https://aclanthology.org/2021.findings-emnlp.39.pdf},
     author = "Javier Ferrando and
       Marta R. Costa-jussà",
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
@@ -104,6 +111,7 @@ and Sloot, Peter M. A.
 and Brissos, S{\'e}rgio
 and Teixeira, Jo{\~a}o",
 title="Improving Accuracy and Speeding Up Document Image Classification Through Parallel Systems",
+pdf={https://link.springer.com/content/pdf/10.1007/978-3-030-50417-5_29.pdf},
 booktitle="Computational Science -- ICCS 2020",
 year="2020",
 publisher="Springer International Publishing",

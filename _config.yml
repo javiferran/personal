@@ -57,7 +57,7 @@ github_username: javiferran # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: javifer_96 # your Twitter handle
 linkedin_username: javierferrandomonsonis # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: ZNsw8ZUAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -70,9 +70,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
+contact_note:
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -206,8 +204,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Ferrando
+  first_name: [Javier]
 
   style: apa
   locale: en
