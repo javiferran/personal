@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://directori.upc.edu/directori/dadesPersona.jsp?id=1235990'>Universitat Politècnica de Catalunya</a>.
+subtitle:
 
 profile:
   align: right
