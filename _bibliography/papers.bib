@@ -3,10 +3,78 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{https://doi.org/10.48550/arxiv.2205.11631,
+  abbr={ArXiv Preprint},
+  doi = {10.48550/ARXIV.2205.11631},
+  
+  url = {https://arxiv.org/abs/2205.11631},
+  
+  author = {Ferrando, Javier and Gállego, Gerard I. and Alastruey, Belen and Escolano, Carlos and Costa-jussà, Marta R.},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Towards Opening the Black Box of Neural Machine Translation: Source and Target Interpretations of the Transformer},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{https://doi.org/10.48550/arxiv.2203.04212,
+  abbr={ArXiv Preprint},
+  doi = {10.48550/ARXIV.2203.04212},
+  
+  url = {https://arxiv.org/abs/2203.04212},
+  
+  author = {Ferrando, Javier and Gállego, Gerard I. and Costa-jussà, Marta R.},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Measuring the Mixing of Contextual Information in the Transformer},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@inproceedings{alastruey-etal-2022-locality,
+    abbr={ACL SRW},
+    title = "On the Locality of Attention in Direct Speech Translation",
+    author = "Belen Alastruey*  and
+      Javier Ferrando*  and
+      Gerard I. Gállego  and
+      Marta R. Costa-jussá",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-srw.32",
+    doi = "10.18653/v1/2022.acl-srw.32",
+    pages = "402--412",
+    abstract = "Transformers have achieved state-of-the-art results across multiple NLP tasks. However, the self-attention mechanism complexity scales quadratically with the sequence length, creating an obstacle for tasks involving long sequences, like in the speech domain. In this paper, we discuss the usefulness of self-attention for Direct Speech Translation. First, we analyze the layer-wise token contributions in the self-attention of the encoder, unveiling local diagonal patterns. To prove that some attention weights are avoidable, we propose to substitute the standard self-attention with a local efficient one, setting the amount of context used based on the results of the analysis. With this approach, our model matches the baseline performance, and improves the efficiency by skipping the computation of those weights that standard attention discards.",
+}
+
+@inproceedings{costajussa:2022,
+abbr={AAAI},
+  author = {Costa-jussà, Marta R. and Escolano, Carlos and Basta, Christine and Ferrando, Javier and Batlle, Roser and Kharitonova, Ksenia},
+  title = {Interpreting Gender Bias in Neural Machine Translation: Architecture Matters},
+  booktitle = {Proceedings of AAAI},
+  url = "https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf",
+  year = {2022},
+}
+
 @inproceedings{ferrando-costa-jussa-2021-attention-weights,
+    abbr={EMNLP},
     title = "Attention Weights in Transformer {NMT} Fail Aligning Words Between Sequences but Largely Explain Model Predictions",
-    author = "Ferrando, Javier  and
-      Costa-juss{\`a}, Marta R.",
+    author = "Javier Ferrando and
+      Marta R. Costa-jussà",
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
     month = nov,
     year = "2021",
@@ -16,4 +84,31 @@
     doi = "10.18653/v1/2021.findings-emnlp.39",
     pages = "434--443",
     abstract = "This work proposes an extensive analysis of the Transformer architecture in the Neural Machine Translation (NMT) setting. Focusing on the encoder-decoder attention mechanism, we prove that attention weights systematically make alignment errors by relying mainly on uninformative tokens from the source sequence. However, we observe that NMT models assign attention to these tokens to regulate the contribution in the prediction of the two contexts, the source and the prefix of the target sequence. We provide evidence about the influence of wrong alignments on the model behavior, demonstrating that the encoder-decoder attention mechanism is well suited as an interpretability method for NMT. Finally, based on our analysis, we propose methods that largely reduce the word alignment error rate compared to standard induced alignments from attention weights.",
+}
+
+@InProceedings{10.1007/978-3-030-50417-5_29,
+abbr={ICCS},
+author="Ferrando, Javier
+and Dom{\'i}nguez, Juan Luis
+and Torres, Jordi
+and Garc{\'i}a, Ra{\'u}l
+and Garc{\'i}a, David
+and Garrido, Daniel
+and Cortada, Jordi
+and Valero, Mateo",
+editor="Krzhizhanovskaya, Valeria V.
+and Z{\'a}vodszky, G{\'a}bor
+and Lees, Michael H.
+and Dongarra, Jack J.
+and Sloot, Peter M. A.
+and Brissos, S{\'e}rgio
+and Teixeira, Jo{\~a}o",
+title="Improving Accuracy and Speeding Up Document Image Classification Through Parallel Systems",
+booktitle="Computational Science -- ICCS 2020",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="387--400",
+abstract="This paper presents a study showing the benefits of the EfficientNet models compared with heavier Convolutional Neural Networks (CNNs) in the Document Classification task, essential problem in the digitalization process of institutions. We show in the RVL-CDIP dataset that we can improve previous results with a much lighter model and present its transfer learning capabilities on a smaller in-domain dataset such as Tobacco3482. Moreover, we present an ensemble pipeline which is able to boost solely image input by combining image model predictions with the ones generated by BERT model on extracted text by OCR. We also show that the batch size can be effectively increased without hindering its accuracy so that the training process can be sped up by parallelizing throughout multiple GPUs, decreasing the computational time needed. Lastly, we expose the training performance differences between PyTorch and Tensorflow Deep Learning frameworks.",
+isbn="978-3-030-50417-5"
 }
