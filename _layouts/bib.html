@@ -46,7 +46,7 @@
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
-                {% if author_is_self %}
+                {% if author_is_self or author.last=="Ferrando*" %}
                   <em>{{author.last}}, {{author.first}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
