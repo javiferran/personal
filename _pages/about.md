@@ -19,4 +19,4 @@ I am a final year PhD student at the [MTUPC](https://mt.cs.upc.edu/) group at th
 
 My research focuses on interpretability and analysis of NLP models, with a broader interest in Explainable AI. My current focus revolves around understanding Language Models, while also exploring areas such as Machine Translation and multilingual NLP. Apart from research, I have also been a teacher assistant at several courses in the Computer Science and Telecommunications departments at UPC.
 
-I´m on the job market for 2024. If you believe there is a potential match, please feel free to reach out.
+I'm on the job market for 2024. If you believe there is a potential match, please feel free to reach out.
