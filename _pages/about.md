@@ -19,6 +19,4 @@ I am a final year PhD student at the Universitat Politècnica de Catalunya (UPC)
 
 My research focuses on interpretability and analysis of models. Currently, I am doing mechanistic interpretability research in Large Language Models, with special interest in improving their safety. Apart from research, I have also been a teacher assistant at several courses in the Computer Science and Telecommunications departments at UPC.
 
-I am currently on the job market. If you believe there is a potential match, feel free to reach out.
-
-If you want to give anonymous feedback: [leave it here](https://www.admonymous.co/javifer).
+Feel free to give anonymous feedback: [here](https://www.admonymous.co/javifer).
